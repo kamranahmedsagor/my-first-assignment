@@ -1,0 +1,187 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    display: flex;
+  }
+ 
+  
+  .top-left {
+    position: absolute;
+width: 525px;
+height: 228px;
+margin-left: 854px;
+top: 40px;
+font-weight: 700;
+font-size: 45px;
+text-align: right;
+  }
+  .header-description{
+    
+position: absolute;
+width: 494px;
+height: 78px;
+margin-left: 876px;
+margin-top: 360px;
+text-align: right;
+  }
+.btn-primary{
+        
+position: absolute;
+font-weight: 700;
+font-size: 20px;
+margin-left: 1276px;
+margin-top: 460px;
+padding: 18px 25px;
+color: white;
+border: 0;
+height: 64px;
+
+
+  }
+
+  /* main body style */
+
+
+  .second-container{
+    display: flex;
+  }
+  .main-header{
+    /* text-align: right ; */
+    margin-top: 346px;
+    margin-left: 322px;
+    
+  }
+
+  .main-header-title{
+    width: 288px;
+height: 94px;
+font-weight: 700;
+font-size: 40px;
+   
+  }
+  .main-header-description{
+    font-weight: 400;
+font-size: 16px;
+width: 416px;
+height: 104px;
+ 
+
+  }
+  .checkmark{
+    color: green;
+  }
+    
+  /* my plan style */
+
+
+  .plan-head{
+    width: 179px;
+height: 47px;
+font-weight: 700;
+font-size: 40px;
+margin: 130px 710px 50px 711px;
+text-align: center;
+  }
+  .my-plan-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .webdev{
+    width: 270px;
+height: 35px;
+font-weight: 700;
+/* font-size: 30px; */
+    margin-left: 230px;
+    text-align: center;
+  }
+  .js{
+    text-align: center;
+
+  }
+  .smoke{
+    text-align: center;
+
+  }
+  .ecommerce{
+    margin-right: 230px;
+    text-align: center;
+  }
+
+  /* clock style */
+
+  .clock-container{
+    position: relative;
+    text-align: centers;
+    
+  }
+  .clock{
+    /* margin: 133px 230px 130px 230px; */
+  }
+  .clock-heading{
+    position: absolute;
+width: 525px;
+height: 228px;
+margin-right: 854px;
+top: 40px;
+font-weight: 700;
+font-size: 45px;
+text-align: left;
+color: #FFFFFF;
+  }
+  .caller{
+  
+position: absolute;
+font-weight: 700;
+font-size: 20px;
+margin-right: 1276px;
+margin-bottom: 460px;
+/* padding: 18px 25px; */
+color: white;
+border: 0;
+height: 64px;
+
+
+  }
+
+
+
+
+
+
+  /* footer section style */
+
+  .footer-container{
+    background-color:  #151414;
+    width: 1600px;
+height: 577px;
+margin-top: 130px;
+color: #FFFFFF;
+display: flex;
+  }
+    
+ .footer-heading {
+  margin: 130px 0 130px 230px;
+
+  }
+  .footer-heading ,a{
+    width: 179.7px;
+height: 43.79px;
+  }
+  .footer-description{
+    width: 485px;
+height: 78px;
+  }
+  .footer-content{
+    margin: 130px 230px 243px 331px;
+  }
+  .button{
+    margin-top: 15px;
+  }
+  .icon{
+    width: 179.7px;
+height: 43.79px;
+color: white;
+  }
+  
+ 
