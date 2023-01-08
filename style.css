@@ -1,41 +1,60 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-    display: flex;
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.body-container {
+
+  background-repeat: no-repeat;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  /* margin-top: 322px; */
+   
+    
+    
+    width: 100%;
+height: 809px;
+   
+    background-image: url('images/banner/banner2.png');
+    
   }
  
   
-  .top-left {
-    position: absolute;
-width: 525px;
+  .body-header{
+  
+   margin-left: 616px;
+   margin-top: 123px;
+   font-weight: 700;
+font-size: 65px;
+   width: 516px;
 height: 228px;
-margin-left: 854px;
-top: 40px;
-font-weight: 700;
-font-size: 45px;
-text-align: right;
+
   }
+  
+  
   .header-description{
     
-position: absolute;
-width: 494px;
-height: 78px;
-margin-left: 876px;
-margin-top: 360px;
-text-align: right;
+    margin-top: 20px;
+    
+
+font-weight: 400;
+font-size: 16px;
+    
+
   }
 .btn-primary{
+  margin-top: 20px;
+  width: 140px;
+height: 54px;
+background-color: #F15B22;
+font-size: 15px;
+color: #FFFFFF;
+border: none;
+border-radius: 5px;
+
         
-position: absolute;
-font-weight: 700;
-font-size: 20px;
-margin-left: 1276px;
-margin-top: 460px;
-padding: 18px 25px;
-color: white;
-border: 0;
-height: 64px;
 
 
   }
@@ -47,7 +66,7 @@ height: 64px;
     display: flex;
   }
   .main-header{
-    /* text-align: right ; */
+    
     margin-top: 346px;
     margin-left: 322px;
     
@@ -100,7 +119,9 @@ font-weight: 700;
 
   }
   .smoke{
-    text-align: center;
+    text-align: center;  
+    
+   
 
   }
   .ecommerce{
@@ -111,38 +132,48 @@ font-weight: 700;
   /* clock style */
 
   .clock-container{
-    position: relative;
-    text-align: centers;
+    background-image: url('images/watch.png');
+    /* background-image: url('images/gradient1.png'); */
     
-  }
-  .clock{
-    /* margin: 133px 230px 130px 230px; */
+   
+    
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px 130px 230px ;
+    text-align: left;
+    position: relative;
+
   }
   .clock-heading{
+    width: 459px;
     position: absolute;
-width: 525px;
-height: 228px;
-margin-right: 854px;
-top: 40px;
+height: 94px;
+margin: 59px 0 0 64px;
+
 font-weight: 700;
-font-size: 45px;
-text-align: left;
+font-size: 40px;
 color: #FFFFFF;
+
   }
-  .caller{
+  .caller-button{
+    position: absolute;
+    width: 88px;
+height: 23px;
+font-weight: 600;
+font-size: 10px;
+margin: 179px 0 0 64px;
+background-color: white;
+color: #F15B22;
+  }
+
   
-position: absolute;
-font-weight: 700;
-font-size: 20px;
-margin-right: 1276px;
-margin-bottom: 460px;
-/* padding: 18px 25px; */
-color: white;
-border: 0;
-height: 64px;
+  
+  
+    
+  
+  
+  
 
-
-  }
 
 
 
@@ -164,10 +195,7 @@ display: flex;
   margin: 130px 0 130px 230px;
 
   }
-  .footer-heading ,a{
-    width: 179.7px;
-height: 43.79px;
-  }
+  
   .footer-description{
     width: 485px;
 height: 78px;
@@ -175,8 +203,18 @@ height: 78px;
   .footer-content{
     margin: 130px 230px 243px 331px;
   }
-  .button{
+  .sub-button{
     margin-top: 15px;
+    width: 100.11px;
+    font-size: 15px;
+    font-weight: 600;
+height: 44px;
+color: #F15B22;
+  }
+  .email{
+    width: 255px;
+height: 54px;
+border: 1px;
   }
   .icon{
     width: 179.7px;
